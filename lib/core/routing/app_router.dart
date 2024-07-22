@@ -6,7 +6,7 @@ import 'package:omar_advanced_course/features/onboarding/ui/onboarding_screen.da
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
     // this arguments to be passed in any screen like this (arguments as className)
-    final arguments = settings.arguments;
+    // final arguments = settings.arguments;
 
     switch (settings.name) {
       case Routes.onBoardingScreen:
