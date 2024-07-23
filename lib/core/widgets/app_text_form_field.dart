@@ -38,19 +38,19 @@ class AppTextFormField extends StatelessWidget {
             ),
         focusedBorder: focusedBorder ??
             OutlineInputBorder(
-              borderRadius: BorderRadius.circular(16),
               borderSide: const BorderSide(
                 color: ColorsManager.kPrimaryColor,
                 width: 1.3,
               ),
+              borderRadius: BorderRadius.circular(16.0),
             ),
         enabledBorder: enabledBorder ??
             OutlineInputBorder(
-              borderRadius: BorderRadius.circular(16),
               borderSide: const BorderSide(
                 color: ColorsManager.kBorderColor,
                 width: 1.3,
               ),
+              borderRadius: BorderRadius.circular(16.0),
             ),
         hintStyle: hintStyle ?? TextStyles.font14LightGreyRegular,
         hintText: hintText,
